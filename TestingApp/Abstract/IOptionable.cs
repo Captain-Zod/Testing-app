@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestingApp.Abstract
 {
-    public interface IOption
+    public interface IOptionable
     {
-
+        public List<Option> Options { get; }
     }
 }

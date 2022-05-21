@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace TestingApp.Abstract
 {
-    public interface IQuestion
+    public abstract class Attachment
     {
-        IEnumerable<IOption> Options { get; }
+        public int Index { get; set; }
+    }
+
+    public class PhotoAttachment 
+    { 
+
     }
 }

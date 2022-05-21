@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestingApp.Abstract
 {
-    public interface ITest
+    public class Option
     {
-        IEnumerable<IQuestion> Questions { get; set; }
+        public int Index { get; set; }
     }
 }
